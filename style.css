@@ -1,0 +1,66 @@
+body {
+	background-color: #000000;
+	background-image: linear-gradient(147deg, #000000 0%, #04619f 74%);;
+	font-family: monospace;
+}
+
+h1 {
+	color: white;
+	font-size: 32px;
+}
+
+a {
+	text-decoration: none;
+	color: white;
+	font-size: 21px;
+}
+
+
+#board td {
+	background-color: #5b6467;
+	background-image: linear-gradient(315deg, grey 0%, rgba(0, 0, 0, 0.795) 74%);
+	color: rgba(0, 204, 255, 0.877);
+	width: 125px;
+	height: 125px;
+	text-align: center;
+	font-size: 100px;
+	cursor: pointer;
+	border-radius: 20px;
+}
+
+#board td:hover {
+	background-color: #1F5B59;
+	-webkit-transition: background-color, 0.3s ease-in-out;
+	transition: background-color, 0.3s ease-in-out;
+}
+
+#panel {
+	display: none;
+	position: fixed;
+	left: 0;
+	top: 0;
+	width: 100%;
+	height: 100%;
+	overflow: auto;
+	background-color: rgb(0, 0, 0);
+	background-color: rgba(0, 0, 0, 0.4);
+	padding-top: 7%;
+}
+
+#restart {
+	background-color: #2ECC71;
+	border: none;
+	color: white;
+	padding: 15px 32px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 16px;
+	cursor: pointer;
+}
+
+#restart:hover {
+	background-color: #27AE60;
+	-webkit-transition: background-color, 0.3s ease-in-out;
+	transition: background-color, 0.3s ease-in-out;
+}
